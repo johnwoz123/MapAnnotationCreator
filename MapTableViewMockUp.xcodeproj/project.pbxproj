@@ -13,6 +13,13 @@
 		2189C7A81E1BF42500E8DA76 /* MapTableViewMockUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2189C7A61E1BF42500E8DA76 /* MapTableViewMockUp.xcdatamodeld */; };
 		2189C7AA1E1BF42500E8DA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2189C7A91E1BF42500E8DA76 /* Assets.xcassets */; };
 		2189C7AD1E1BF42500E8DA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2189C7AB1E1BF42500E8DA76 /* LaunchScreen.storyboard */; };
+		2189C7B61E1BF94500E8DA76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C7B51E1BF94500E8DA76 /* MapKit.framework */; };
+		2189C7B81E1BFABF00E8DA76 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189C7B71E1BFABF00E8DA76 /* DatabaseController.swift */; };
+		2189C7BC1E1C156500E8DA76 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189C7BB1E1C156500E8DA76 /* MapPin.swift */; };
+		2189C7BE1E1C21F100E8DA76 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189C7BD1E1C21F100E8DA76 /* TableViewController.swift */; };
+		2189C7C01E1C246800E8DA76 /* BuildingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189C7BF1E1C246800E8DA76 /* BuildingsController.swift */; };
+		2189C7C21E1C3BD500E8DA76 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189C7C11E1C3BD500E8DA76 /* DetailsViewController.swift */; };
+		897BDCBB1CB498BB3C92A24C /* Pods_MapTableViewMockUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA5B8583CB70E7CE7400097 /* Pods_MapTableViewMockUp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,15 @@
 		2189C7A91E1BF42500E8DA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2189C7AC1E1BF42500E8DA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2189C7AE1E1BF42500E8DA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2189C7B51E1BF94500E8DA76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2189C7B71E1BFABF00E8DA76 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		2189C7BB1E1C156500E8DA76 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		2189C7BD1E1C21F100E8DA76 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2189C7BF1E1C246800E8DA76 /* BuildingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingsController.swift; sourceTree = "<group>"; };
+		2189C7C11E1C3BD500E8DA76 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2EA5B8583CB70E7CE7400097 /* Pods_MapTableViewMockUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapTableViewMockUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B8EB5C0677F50B20740BBD /* Pods-MapTableViewMockUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapTableViewMockUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapTableViewMockUp/Pods-MapTableViewMockUp.release.xcconfig"; sourceTree = "<group>"; };
+		B79E4D6C1A2FA3ACB7A4EB44 /* Pods-MapTableViewMockUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapTableViewMockUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapTableViewMockUp/Pods-MapTableViewMockUp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2189C7B61E1BF94500E8DA76 /* MapKit.framework in Frameworks */,
+				897BDCBB1CB498BB3C92A24C /* Pods_MapTableViewMockUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,8 @@
 			children = (
 				2189C79E1E1BF42500E8DA76 /* MapTableViewMockUp */,
 				2189C79D1E1BF42500E8DA76 /* Products */,
+				2189C7B41E1BF94500E8DA76 /* Frameworks */,
+				722390E0A165832395A2F1A3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,54 @@
 		2189C79E1E1BF42500E8DA76 /* MapTableViewMockUp */ = {
 			isa = PBXGroup;
 			children = (
+				2189C7BA1E1C091800E8DA76 /* Model */,
+				2189C7B91E1C091200E8DA76 /* Controller */,
 				2189C79F1E1BF42500E8DA76 /* AppDelegate.swift */,
-				2189C7A11E1BF42500E8DA76 /* ViewController.swift */,
 				2189C7A31E1BF42500E8DA76 /* Main.storyboard */,
-				2189C7A91E1BF42500E8DA76 /* Assets.xcassets */,
 				2189C7AB1E1BF42500E8DA76 /* LaunchScreen.storyboard */,
 				2189C7AE1E1BF42500E8DA76 /* Info.plist */,
 				2189C7A61E1BF42500E8DA76 /* MapTableViewMockUp.xcdatamodeld */,
+				2189C7A91E1BF42500E8DA76 /* Assets.xcassets */,
 			);
 			path = MapTableViewMockUp;
+			sourceTree = "<group>";
+		};
+		2189C7B41E1BF94500E8DA76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2189C7B51E1BF94500E8DA76 /* MapKit.framework */,
+				2EA5B8583CB70E7CE7400097 /* Pods_MapTableViewMockUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2189C7B91E1C091200E8DA76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2189C7BD1E1C21F100E8DA76 /* TableViewController.swift */,
+				2189C7B71E1BFABF00E8DA76 /* DatabaseController.swift */,
+				2189C7A11E1BF42500E8DA76 /* ViewController.swift */,
+				2189C7BF1E1C246800E8DA76 /* BuildingsController.swift */,
+				2189C7C11E1C3BD500E8DA76 /* DetailsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2189C7BA1E1C091800E8DA76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2189C7BB1E1C156500E8DA76 /* MapPin.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		722390E0A165832395A2F1A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B79E4D6C1A2FA3ACB7A4EB44 /* Pods-MapTableViewMockUp.debug.xcconfig */,
+				B4B8EB5C0677F50B20740BBD /* Pods-MapTableViewMockUp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2189C7B11E1BF42500E8DA76 /* Build configuration list for PBXNativeTarget "MapTableViewMockUp" */;
 			buildPhases = (
+				933B3DC7A8B8C6EED3D4488E /* [CP] Check Pods Manifest.lock */,
 				2189C7981E1BF42500E8DA76 /* Sources */,
 				2189C7991E1BF42500E8DA76 /* Frameworks */,
 				2189C79A1E1BF42500E8DA76 /* Resources */,
+				CB6DE6A33CB73AA2FCF97450 /* [CP] Embed Pods Frameworks */,
+				F0276F8757608839BF3739B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +162,11 @@
 					2189C79B1E1BF42500E8DA76 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -134,11 +201,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		933B3DC7A8B8C6EED3D4488E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6DE6A33CB73AA2FCF97450 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapTableViewMockUp/Pods-MapTableViewMockUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0276F8757608839BF3739B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapTableViewMockUp/Pods-MapTableViewMockUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2189C7981E1BF42500E8DA76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2189C7B81E1BFABF00E8DA76 /* DatabaseController.swift in Sources */,
+				2189C7BE1E1C21F100E8DA76 /* TableViewController.swift in Sources */,
+				2189C7C01E1C246800E8DA76 /* BuildingsController.swift in Sources */,
+				2189C7C21E1C3BD500E8DA76 /* DetailsViewController.swift in Sources */,
+				2189C7BC1E1C156500E8DA76 /* MapPin.swift in Sources */,
 				2189C7A21E1BF42500E8DA76 /* ViewController.swift in Sources */,
 				2189C7A81E1BF42500E8DA76 /* MapTableViewMockUp.xcdatamodeld in Sources */,
 				2189C7A01E1BF42500E8DA76 /* AppDelegate.swift in Sources */,
@@ -260,6 +380,7 @@
 		};
 		2189C7B21E1BF42500E8DA76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79E4D6C1A2FA3ACB7A4EB44 /* Pods-MapTableViewMockUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapTableViewMockUp/Info.plist;
@@ -272,6 +393,7 @@
 		};
 		2189C7B31E1BF42500E8DA76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B8EB5C0677F50B20740BBD /* Pods-MapTableViewMockUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapTableViewMockUp/Info.plist;
@@ -301,6 +423,7 @@
 				2189C7B31E1BF42500E8DA76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
